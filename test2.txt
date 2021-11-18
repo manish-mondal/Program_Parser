@@ -1,0 +1,12 @@
+# This is a test program
+PROGRAM Test;
+VAR   
+   num1	        	: REAL;         ## this is a float point 
+   num2, num3   	: INTEGER;      ## this is an integer
+   
+BEGIN 
+   num1 := 2 * 3.0 + 10;
+   num2 := (3 - 1) * 5;
+   num3 := num2 / 10 + num2 * 2;
+   num3 := num3 + num2;
+END
